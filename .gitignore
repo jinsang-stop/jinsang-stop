@@ -1,0 +1,30 @@
+# Java / Spring
+target/
+build/
+*.class
+.gradle/
+
+# Node
+node_modules/
+dist/
+
+# Python 음성 서비스
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/
+
+# 환경변수 — API 키를 커밋하지 않는다
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# 음성 임시 파일 — ADR-0006에 따라 보관하지 않는다
+*.wav
+*.mp3
