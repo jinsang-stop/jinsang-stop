@@ -3,7 +3,9 @@
 악성 민원 응대를 음성으로 반복 연습하는 훈련 서비스. 10주 수업 프로젝트, 2인.
 MVP 범위는 알바(매장 응대) 한 직업군이다.
 
-스택: React + TypeScript / Java Spring / MySQL / 파이썬 음성 서비스(faster-whisper + MeloTTS) / Claude API
+스택: React + TypeScript / Java Spring / MySQL / 파이썬 `음성 서비스`(faster-whisper + MeloTTS) / 로컬 `추론 서비스`(llama.cpp)
+
+현재 PRD는 `docs/PRD-v2.md`다. `docs/PRD.md`(v1)는 이력으로만 두고 구현 근거로 쓰지 않는다.
 
 ## Agent skills
 
