@@ -1,6 +1,6 @@
 # Issue tracker: GitHub
 
-이 저장소의 이슈와 PRD는 **`<OWNER>/<REPO>`**의 GitHub 이슈로 관리한다.
+이 저장소의 이슈와 PRD는 **GitHub 이슈**로 관리한다. 단 원격 저장소는 아직 만들지 않았다 — 저장소를 만든 뒤 여기에 `<owner>/<repo>`를 적는다.
 모든 작업에 `gh` CLI를 쓴다.
 
 ## 규약
