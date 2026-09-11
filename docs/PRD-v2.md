@@ -1,4 +1,4 @@
-# [PRD v2] 악성 민원 응대 음성 훈련 서비스 — 연기·채점을 로컬 LLM으로 전환
+# [PRD v2] 진상 멈춰 — 연기·채점을 로컬 LLM으로 전환
 
 이전 PRD: [docs/PRD.md](PRD.md) (v1). 구현 근거로는 이 문서를 쓴다.
 근거 결정: [ADR-0009](adr/0009-local-llm-inference-service.md)
