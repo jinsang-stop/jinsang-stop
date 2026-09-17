@@ -16,4 +16,5 @@
 
 ## 이 저장소의 상태
 
-아직 생성하지 않음. GitHub 저장소를 만든 뒤 `gh label create`로 다섯 개를 만든다.
+생성됨. 네 저장소(`calmdesk`, `calmdesk-frontend`, `calmdesk-backend`, `calmdesk-voice`) 모두에 다섯 개가 있다.
+작업 종류 라벨(`Feat`·`Fix`·`Refactor`·`Design`·`Chore`·`Setting`·`Comment`·`Docs`·`Test`)은 이와 별개로 함께 붙인다.

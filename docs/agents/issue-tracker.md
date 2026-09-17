@@ -1,7 +1,17 @@
 # Issue tracker: GitHub
 
-이 저장소의 이슈와 PRD는 **GitHub 이슈**로 관리한다. 단 원격 저장소는 아직 만들지 않았다 — 저장소를 만든 뒤 여기에 `<owner>/<repo>`를 적는다.
-모든 작업에 `gh` CLI를 쓴다.
+이 저장소의 이슈와 PRD는 **GitHub 이슈**로 관리한다. 모든 작업에 `gh` CLI를 쓴다.
+
+## 이슈가 사는 곳
+
+| 이슈 | 저장소 | 제목 |
+|---|---|---|
+| PRD | `jinsang-stop/calmdesk` | `[PRD vN] ...` |
+| 슬라이스 (공통 계약·데모·AC) | `jinsang-stop/calmdesk` | `[Slice] ...` |
+| 파트별 작업 | `calmdesk-frontend` / `calmdesk-backend` / `calmdesk-voice` | `[Feat] <번호> <목표>` |
+
+파트별 작업 이슈는 GitHub 하위 이슈(sub-issue)로 슬라이스 이슈에 연결한다.
+브랜치(`feat/#N`)와 커밋(`[Feat/#N]`)의 번호는 **파트 저장소 이슈 번호**다.
 
 ## 규약
 
@@ -11,6 +21,7 @@
 - **댓글**: `gh issue comment <number> --body "..."`
 - **라벨 추가/제거**: `gh issue edit <number> --add-label "..."` / `--remove-label "..."`
 - **닫기**: `gh issue close <number> --comment "..."`
+- **다른 저장소**: `-R jinsang-stop/calmdesk-backend`처럼 지정한다.
 
 저장소는 `git remote -v`에서 추론한다 — 클론 안에서 실행하면 `gh`가 자동으로 한다.
 
